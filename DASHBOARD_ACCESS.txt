@@ -1,0 +1,105 @@
+================================================================================
+                    DATAHAWK DASHBOARD NOW RUNNING
+================================================================================
+
+🚀 ACCESS THE DASHBOARD:
+
+Local URL:    http://localhost:8501
+Network URL:  http://127.0.0.1:8501
+
+Open this URL in your browser to access the DataHawk dashboard.
+
+================================================================================
+                          AVAILABLE FEATURES
+================================================================================
+
+The dashboard has 7 pages (tabs on the left sidebar):
+
+1. 📊 DASHBOARD
+   - Overview metrics and statistics
+   - Summary of processed posts
+   - Key insights at a glance
+
+2. 📤 DATA COLLECTION
+   - Upload your own CSV/JSON data
+   - View dataset statistics
+   - Explore loaded data
+
+3. 🧠 NLP ANALYSIS
+   - Sentiment analysis (positive, negative, neutral)
+   - Emotion classification (7 emotions)
+   - Named entity recognition
+   - Keyword extraction
+   - Hashtag analysis
+
+4. 🎯 TOPIC EXPLORER
+   - Semantic topic clustering visualization
+   - Topic coherence metrics
+   - Topic quality evaluation
+   - Representative posts per topic
+
+5. 📈 TREND DETECTION
+   - Composite trend scoring
+   - Trend rankings and visualization
+   - Growth rate analysis
+   - Engagement metrics
+
+6. 🚨 EMERGING TRENDS
+   - Early warning system
+   - Emerging trend classification
+   - Early detection scores
+   - Visualization of emerging vs. stable trends
+
+7. 🔮 FORECASTING
+   - Time-series trend prediction
+   - Baseline vs. ensemble comparison
+   - Future trend forecasting
+   - Prediction accuracy metrics
+
+================================================================================
+                          WHAT YOU CAN TEST
+================================================================================
+
+✅ FULLY WORKING:
+- Data upload and exploration
+- Text preprocessing and cleaning
+- Sentiment analysis (VADER)
+- Keyword extraction
+- Basic trend scoring
+- Dashboard navigation and UI
+
+⚠️ LIMITED (Missing ML Dependencies):
+- Advanced topic clustering (missing sentence-transformers)
+- Embeddings visualization (missing torch)
+- Interactive forecasting plots (missing plotly)
+
+================================================================================
+                          HOW TO TEST
+================================================================================
+
+1. Open http://localhost:8501 in your browser
+2. Go to "Data Collection" tab
+3. Upload dataset/test_data_small.csv (or drag & drop)
+4. Click "Process Data"
+5. Explore each tab to see results
+
+Or use the sample data that's pre-loaded:
+- Navigate to any analysis tab to see results on test_data_small.csv
+
+================================================================================
+                          TO STOP THE DASHBOARD
+================================================================================
+
+In terminal, press Ctrl+C or run:
+    pkill -f "streamlit run"
+
+================================================================================
+                          NOTES
+================================================================================
+
+- The dashboard runs on port 8501 by default
+- If port 8501 is in use, Streamlit will try 8502, 8503, etc.
+- Check the terminal output for the actual URL being used
+- All data is processed locally; nothing is sent to external servers
+
+================================================================================
