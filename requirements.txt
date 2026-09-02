@@ -1,7 +1,51 @@
-streamlit 
-google-generativeai
-selenium
-beautifulsoup4
-lxml 
-html5lib
-python-dotenv
+# DataHawk Research Platform Requirements
+
+# Core dependencies
+numpy>=1.24.0
+pandas>=2.0.0
+scipy>=1.10.0
+
+# NLP and ML
+beautifulsoup4>=4.12.0
+nltk>=3.8.0
+spacy>=3.5.0
+vaderSentiment>=3.3.2
+transformers>=4.30.0
+sentence-transformers>=2.2.0
+torch>=2.0.0
+
+# Clustering and dimensionality reduction
+scikit-learn>=1.3.0
+hdbscan>=0.8.33
+umap-learn>=0.5.3
+
+# Advanced forecasting
+xgboost>=1.7.0
+
+# LLM integration (optional)
+google-generativeai>=0.3.0
+
+# Web interface
+streamlit>=1.28.0
+plotly>=5.17.0
+altair>=5.0.0
+beautifulsoup4>=4.12.0
+
+# Utilities
+python-dotenv>=1.0.0
+tqdm>=4.65.0
+colorama>=0.4.6
+
+# Data formats
+jsonlines>=3.1.0
+pyarrow>=12.0.0
+
+# Language detection
+langdetect>=1.0.9
+
+# Testing (optional)
+pytest>=7.4.0
+pytest-cov>=4.1.0
+
+# Documentation (optional)
+sphinx>=7.0.0
